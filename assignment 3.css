@@ -1,0 +1,43 @@
+.heading{
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    color:cadetblue;
+    text-transform: capitalize;
+}
+
+
+.links{
+    display: flex;
+    flex-direction: row;
+}
+
+.insta ,.snap,.wa{
+    img{
+        height: 35px;
+        margin-top: 10px;
+        
+    }
+}
+
+.insta ,.snap,.wa{
+    height: 50px;
+    width: 30%;
+    padding: 10px;
+    border: 2px solid #686767;
+    border-radius: 10px;
+    margin: 8px;
+    background-color: rgb(255, 228, 196);
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.links a:hover{
+ color: blue;
+}
